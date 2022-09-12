@@ -1,0 +1,169 @@
+body {
+    background-color: rgb(33, 51, 54);
+    color: white;
+    height: 3300px;
+    background-image: url(../imgs/p10.webp);
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.navbar {
+    background: linear-gradient(to bottom left, #000066 0%, #99ccff 100%);
+}
+
+.header1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 20px;
+}
+
+.products {
+    text-align: center;
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 60px 60px;
+}
+
+.products .card {
+    width: 30%;
+    background-color: #26272b;
+    height: 400px;
+}
+.products .card .card-body{
+    background-color: #26272b;
+}
+.card-img-top {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.main1 {
+    width: 100%;
+    display: flex;
+    background-image: url(../imgs/p11.jpeg);
+}
+.clear{
+    clear: both;
+}
+.about {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 0px;
+}
+
+.about .img1 {
+    width: 50%;
+    margin-left: 0px;
+}
+
+.about .img1 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about .cap p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+
+.nav-tabs {
+    width: 40%;
+    margin: 40px auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.tab-content img {
+    width: 100%;
+    border: 1px solid white;
+    margin: 10px 0px;
+}
+
+.tab-content img {
+    width: 100%;
+    border: 1px solid white;
+    margin: 10px 0px;
+}
+
+.site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+@media (max-width:920px) {
+    body {
+        background-color: rgb(33, 51, 54);
+        color: white;
+        height: 3300px;
+        background-image: url(../imgs/p10.webp);
+        background-size: 100% 100%;
+        overflow-x: hidden;
+    } 
+    .products {
+        text-align: center;
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 80px 60px;
+    }
+
+    .products .card {
+        width: 80%;
+        margin: 10px 10px;
+    }
+
+    .about {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 300px;
+    }
+    
+.main1 {
+    width: 100%;
+    margin-top: 400px;
+    display: flex;
+    background-image: url(../imgs/p11.jpeg);
+    display: flex;
+    flex-wrap: wrap;
+}
+.about {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 0px;
+}
+
+.about .img1 {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.about .img1 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about .cap p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+
+
+}
